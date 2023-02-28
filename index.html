@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Webpage</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- START NAV -->
+  <nav id="navbar" class="nav">
+    <ul class="nav__list">
+      <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+      <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+      <li class="nav__item">
+        <a href="#contact" class="nav__link">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- END NAV -->
+
+  <main id="main">
+    <!-- START WELCOME SECTION -->
+    <section id="about" class="welcome-section">
+      <h1 class="welcome-section__title">Hey I am Mimic</h1>
+      <p class="welcome-section__sub-title">a web developer</p>
+    </section>
+    <!-- END WELCOME SECTION -->
+
+    <!-- START PROJECT SECTION -->
+    <section id="work" class="projects-section">
+      <h2 class="projects-section__header">These are some of my projects</h2>
+      <div class="projects-grid">
+        <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" class="project-tile">
+          <div class="project">
+            <div class="project__img">
+              <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="tribute page" />
+            </div>
+
+            <p class="project__title">
+              <span class="code">&lt;</span>
+              Tribute Page
+              <span class="code">&sol;&gt;</span>
+            </p>
+          </div>
+        </a>
+        <a href="https://codepen.io/thanhthat/pen/OJwYOjy" class="project-tile">
+          <div class="project">
+            <div class="project__img">
+              <img src="./assets/images/flexbox-basic.png" alt="flexbox base" />
+            </div>
+            <p class="project__title">
+              <span class="code">&lt;</span>
+              Flexbox Base
+              <span class="code">&sol;&gt;</span>
+            </p>
+          </div>
+        </a>
+        <a href="https://codepen.io/thanhthat/pen/rNrzBKV" class="project-tile">
+          <div class="project">
+            <div class="project__img">
+              <img src="./assets/images/langding-page.png" alt="landing page" />
+            </div>
+            <p class="project__title">
+              <span class="code">&lt;</span>
+              Landing Page
+              <span class="code">&sol;&gt;</span>
+            </p>
+          </div>
+        </a>
+        <a href="https://codepen.io/thanhthat/pen/dyqprWm" class="project-tile">
+          <div class="project">
+            <div class="project__img">
+              <img src="./assets/images/survey-form.png" alt="survey form" />
+            </div>
+            <p class="project__title">
+              <span class="code">&lt;</span>
+              Survey Form
+              <span class="code">&sol;&gt;</span>
+            </p>
+          </div>
+        </a>
+        <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" class="project-tile">
+          <div class="project">
+            <div class="project__img">
+              <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="tribute page" />
+            </div>
+            <p class="project__title">
+              <span class="code">&lt;</span>
+              Tribute Page
+              <span class="code">&sol;&gt;</span>
+            </p>
+          </div>
+        </a>
+        <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" class="project-tile">
+          <div class="project">
+            <div class="project__img">
+              <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="tribute page" />
+            </div>
+            <p class="project__title">
+              <span class="code">&lt;</span>
+              Tribute Page
+              <span class="code">&sol;&gt;</span>
+            </p>
+          </div>
+        </a>
+      </div>
+      <a href="https://codepen.io/thanhthat" target="_blank" rel="noopener noreferrer" class="btn btn--show-all mt-40">
+        Show all
+        <i class="fas fa-chevron-right"></i>
+      </a>
+    </section>
+    <!-- END PROJECT SECTION -->
+
+    <!-- START CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+      <div class="contact-section__header">
+        <h2 class="contact-section__title">Let's work together...</h2>
+        <p class="contact-section__sub-title">How do you take your coffee?</p>
+      </div>
+      <div class="contact-links">
+        <a href="#" target="_blank" id="profile-link" rel="noopener noreferrer" class="btn contact-detail"><i
+            class="fab fa-facebook-square"></i> Facebook</a>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn contact-detail"><i
+            class="fab fa-github-square"></i> Github</a>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn contact-detail"><i
+            class="fab fa-twitter-square"></i> Twitter</a>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn contact-detail"><i class="fab fa-at"></i> Send
+          a email</a>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn contact-detail"><i
+            class="fas fa-mobile-alt"></i> Call me</a>
+      </div>
+    </section>
+    <!-- END SECTION -->
+  </main>
+
+  <!-- START FOOTER -->
+  <footer id="footer">
+    <p>
+      **This is just a fake portfolio. All the projects and contact details
+      given are not real.
+    </p>
+    <p>
+      © Created for
+      <a href="#">
+        freeCodeCamp
+        <i class="fab fa-free-code-camp"></i>
+      </a>
+    </p>
+  </footer>
+  <!-- END FOOTER -->
+</body>
+
+</html>
